@@ -1,0 +1,153 @@
+Frequency Component Selecting ----> The best frequency component is the 66
+Namespace(backbone='resnet50', batch_size=32, checkpoints='D:\\Yangxinpeng\\documents\\code\\TransferLearningForRemoteSensing\\TFSNet5\\configs\\TFSNet\\4', config='D:\\Yangxinpeng\\documents\\code\\TransferLearningForRemoteSensing\\TFSNet5\\configs\\TFSNet\\TFSNet.yaml', data_dir='D:\\Yangxinpeng\\documents\\code\\TransferLearningForRemoteSensing\\TFSNet\\datasets\\SAMPLE\\Scene1', device=device(type='cuda'), early_stop=0, epoch_based_training=False, lr=0.01, lr_decay=0.75, lr_gamma=0.0003, lr_scheduler=True, max_iter=10000, momentum=0.9, n_class=10, n_epoch=50, n_iter_per_epoch=200, num_workers=4, seed=4943602, src_domain='Simulation', tgt_domain='Real', transfer_loss='lmmd', transfer_loss_weight=0.5, use_bottleneck=True, weight_decay=0.0005)
+Iteration: [99/200], lr: 0.0100, cls_loss: 3.1158, transfer_loss: 0.0311, contrastive_loss: 33.9925, total_loss: 3.4713
+Iteration: [199/200], lr: 0.0100, cls_loss: 1.9904, transfer_loss: 0.0588, contrastive_loss: 24.0562, total_loss: 2.2603
+Epoch: [ 1/50], lr: 0.0100, cls_loss: 1.9904, transfer_loss: 0.0588, contrastive_loss: 24.0562, total_loss: 2.2603, test_loss: 0.974548, test_acc: 80.5195
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.4935, transfer_loss: 0.1147, contrastive_loss: 8.6536, total_loss: 0.6374
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.4512, transfer_loss: 0.1277, contrastive_loss: 7.7035, total_loss: 0.5921
+Epoch: [ 2/50], lr: 0.0100, cls_loss: 0.4512, transfer_loss: 0.1277, contrastive_loss: 7.7035, total_loss: 0.5921, test_loss: 0.295741, test_acc: 93.3210
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.2543, transfer_loss: 0.1505, contrastive_loss: 5.2656, total_loss: 0.3822
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.2399, transfer_loss: 0.1608, contrastive_loss: 4.7944, total_loss: 0.3683
+Epoch: [ 3/50], lr: 0.0100, cls_loss: 0.2399, transfer_loss: 0.1608, contrastive_loss: 4.7944, total_loss: 0.3683, test_loss: 0.255623, test_acc: 94.8052
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.1732, transfer_loss: 0.1888, contrastive_loss: 3.8947, total_loss: 0.3065
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.1656, transfer_loss: 0.1983, contrastive_loss: 3.7504, total_loss: 0.3023
+Epoch: [ 4/50], lr: 0.0100, cls_loss: 0.1656, transfer_loss: 0.1983, contrastive_loss: 3.7504, total_loss: 0.3023, test_loss: 0.055800, test_acc: 97.9592
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.1449, transfer_loss: 0.2223, contrastive_loss: 2.7206, total_loss: 0.2832
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.1272, transfer_loss: 0.2250, contrastive_loss: 2.6406, total_loss: 0.2661
+Epoch: [ 5/50], lr: 0.0100, cls_loss: 0.1272, transfer_loss: 0.2250, contrastive_loss: 2.6406, total_loss: 0.2661, test_loss: 0.023784, test_acc: 98.8868
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.1519, transfer_loss: 0.2480, contrastive_loss: 2.3898, total_loss: 0.2998
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.1284, transfer_loss: 0.2489, contrastive_loss: 2.1832, total_loss: 0.2747
+Epoch: [ 6/50], lr: 0.0100, cls_loss: 0.1284, transfer_loss: 0.2489, contrastive_loss: 2.1832, total_loss: 0.2747, test_loss: 0.020586, test_acc: 99.2579
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.1053, transfer_loss: 0.2580, contrastive_loss: 1.8076, total_loss: 0.2524
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0975, transfer_loss: 0.2650, contrastive_loss: 1.6854, total_loss: 0.2469
+Epoch: [ 7/50], lr: 0.0100, cls_loss: 0.0975, transfer_loss: 0.2650, contrastive_loss: 1.6854, total_loss: 0.2469, test_loss: 0.027628, test_acc: 99.0724
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0712, transfer_loss: 0.2683, contrastive_loss: 1.3012, total_loss: 0.2184
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0712, transfer_loss: 0.2598, contrastive_loss: 1.2938, total_loss: 0.2141
+Epoch: [ 8/50], lr: 0.0100, cls_loss: 0.0712, transfer_loss: 0.2598, contrastive_loss: 1.2938, total_loss: 0.2141, test_loss: 0.053208, test_acc: 99.2579
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0814, transfer_loss: 0.2733, contrastive_loss: 1.0005, total_loss: 0.2281
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0792, transfer_loss: 0.2773, contrastive_loss: 1.0088, total_loss: 0.2280
+Epoch: [ 9/50], lr: 0.0100, cls_loss: 0.0792, transfer_loss: 0.2773, contrastive_loss: 1.0088, total_loss: 0.2280, test_loss: 0.011815, test_acc: 99.6289
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0711, transfer_loss: 0.2668, contrastive_loss: 0.8214, total_loss: 0.2128
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0740, transfer_loss: 0.2793, contrastive_loss: 0.8313, total_loss: 0.2220
+Epoch: [10/50], lr: 0.0100, cls_loss: 0.0740, transfer_loss: 0.2793, contrastive_loss: 0.8313, total_loss: 0.2220, test_loss: 0.020760, test_acc: 99.4434
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0976, transfer_loss: 0.2954, contrastive_loss: 0.8733, total_loss: 0.2540
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0987, transfer_loss: 0.2965, contrastive_loss: 0.8436, total_loss: 0.2554
+Epoch: [11/50], lr: 0.0100, cls_loss: 0.0987, transfer_loss: 0.2965, contrastive_loss: 0.8436, total_loss: 0.2554, test_loss: 0.035812, test_acc: 99.2579
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0746, transfer_loss: 0.2810, contrastive_loss: 0.6514, total_loss: 0.2216
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0750, transfer_loss: 0.2845, contrastive_loss: 0.6162, total_loss: 0.2234
+Epoch: [12/50], lr: 0.0100, cls_loss: 0.0750, transfer_loss: 0.2845, contrastive_loss: 0.6162, total_loss: 0.2234, test_loss: 0.006762, test_acc: 99.6289
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0748, transfer_loss: 0.2898, contrastive_loss: 0.5187, total_loss: 0.2249
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0808, transfer_loss: 0.2963, contrastive_loss: 0.5440, total_loss: 0.2344
+Epoch: [13/50], lr: 0.0100, cls_loss: 0.0808, transfer_loss: 0.2963, contrastive_loss: 0.5440, total_loss: 0.2344, test_loss: 0.045812, test_acc: 98.5158
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0864, transfer_loss: 0.3053, contrastive_loss: 0.4933, total_loss: 0.2440
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0849, transfer_loss: 0.3077, contrastive_loss: 0.4864, total_loss: 0.2436
+Epoch: [14/50], lr: 0.0100, cls_loss: 0.0849, transfer_loss: 0.3077, contrastive_loss: 0.4864, total_loss: 0.2436, test_loss: 0.001433, test_acc: 100.0000
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0818, transfer_loss: 0.3197, contrastive_loss: 0.3995, total_loss: 0.2457
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0791, transfer_loss: 0.3186, contrastive_loss: 0.3872, total_loss: 0.2423
+Epoch: [15/50], lr: 0.0100, cls_loss: 0.0791, transfer_loss: 0.3186, contrastive_loss: 0.3872, total_loss: 0.2423, test_loss: 0.013338, test_acc: 99.4434
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0930, transfer_loss: 0.3309, contrastive_loss: 0.3612, total_loss: 0.2621
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0923, transfer_loss: 0.3255, contrastive_loss: 0.3812, total_loss: 0.2589
+Epoch: [16/50], lr: 0.0100, cls_loss: 0.0923, transfer_loss: 0.3255, contrastive_loss: 0.3812, total_loss: 0.2589, test_loss: 0.017754, test_acc: 99.2579
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0791, transfer_loss: 0.3190, contrastive_loss: 0.3343, total_loss: 0.2420
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0752, transfer_loss: 0.3225, contrastive_loss: 0.3310, total_loss: 0.2398
+Epoch: [17/50], lr: 0.0100, cls_loss: 0.0752, transfer_loss: 0.3225, contrastive_loss: 0.3310, total_loss: 0.2398, test_loss: 0.001894, test_acc: 100.0000
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0868, transfer_loss: 0.3142, contrastive_loss: 0.3175, total_loss: 0.2471
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0819, transfer_loss: 0.3168, contrastive_loss: 0.2921, total_loss: 0.2432
+Epoch: [18/50], lr: 0.0100, cls_loss: 0.0819, transfer_loss: 0.3168, contrastive_loss: 0.2921, total_loss: 0.2432, test_loss: 0.004545, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0774, transfer_loss: 0.2952, contrastive_loss: 0.3413, total_loss: 0.2284
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0747, transfer_loss: 0.2980, contrastive_loss: 0.2925, total_loss: 0.2266
+Epoch: [19/50], lr: 0.0100, cls_loss: 0.0747, transfer_loss: 0.2980, contrastive_loss: 0.2925, total_loss: 0.2266, test_loss: 0.002808, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0662, transfer_loss: 0.2977, contrastive_loss: 0.2643, total_loss: 0.2177
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0666, transfer_loss: 0.2956, contrastive_loss: 0.2558, total_loss: 0.2170
+Epoch: [20/50], lr: 0.0100, cls_loss: 0.0666, transfer_loss: 0.2956, contrastive_loss: 0.2558, total_loss: 0.2170, test_loss: 0.016938, test_acc: 99.6289
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0701, transfer_loss: 0.2841, contrastive_loss: 0.2465, total_loss: 0.2146
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0648, transfer_loss: 0.2767, contrastive_loss: 0.2305, total_loss: 0.2055
+Epoch: [21/50], lr: 0.0100, cls_loss: 0.0648, transfer_loss: 0.2767, contrastive_loss: 0.2305, total_loss: 0.2055, test_loss: 0.022132, test_acc: 99.6289
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0739, transfer_loss: 0.2840, contrastive_loss: 0.2561, total_loss: 0.2185
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0721, transfer_loss: 0.2855, contrastive_loss: 0.2646, total_loss: 0.2175
+Epoch: [22/50], lr: 0.0100, cls_loss: 0.0721, transfer_loss: 0.2855, contrastive_loss: 0.2646, total_loss: 0.2175, test_loss: 0.003377, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0602, transfer_loss: 0.2674, contrastive_loss: 0.2085, total_loss: 0.1960
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0634, transfer_loss: 0.2695, contrastive_loss: 0.2049, total_loss: 0.2002
+Epoch: [23/50], lr: 0.0100, cls_loss: 0.0634, transfer_loss: 0.2695, contrastive_loss: 0.2049, total_loss: 0.2002, test_loss: 0.004785, test_acc: 99.6289
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0498, transfer_loss: 0.2296, contrastive_loss: 0.1843, total_loss: 0.1665
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0560, transfer_loss: 0.2485, contrastive_loss: 0.1925, total_loss: 0.1822
+Epoch: [24/50], lr: 0.0100, cls_loss: 0.0560, transfer_loss: 0.2485, contrastive_loss: 0.1925, total_loss: 0.1822, test_loss: 0.008425, test_acc: 99.6289
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0538, transfer_loss: 0.2509, contrastive_loss: 0.2109, total_loss: 0.1814
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0559, transfer_loss: 0.2558, contrastive_loss: 0.2047, total_loss: 0.1859
+Epoch: [25/50], lr: 0.0100, cls_loss: 0.0559, transfer_loss: 0.2558, contrastive_loss: 0.2047, total_loss: 0.1859, test_loss: 0.004941, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0514, transfer_loss: 0.2460, contrastive_loss: 0.1757, total_loss: 0.1762
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0577, transfer_loss: 0.2478, contrastive_loss: 0.1930, total_loss: 0.1835
+Epoch: [26/50], lr: 0.0100, cls_loss: 0.0577, transfer_loss: 0.2478, contrastive_loss: 0.1930, total_loss: 0.1835, test_loss: 0.002674, test_acc: 100.0000
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0590, transfer_loss: 0.2568, contrastive_loss: 0.1589, total_loss: 0.1890
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0588, transfer_loss: 0.2535, contrastive_loss: 0.1541, total_loss: 0.1871
+Epoch: [27/50], lr: 0.0100, cls_loss: 0.0588, transfer_loss: 0.2535, contrastive_loss: 0.1541, total_loss: 0.1871, test_loss: 0.004320, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0529, transfer_loss: 0.2279, contrastive_loss: 0.1774, total_loss: 0.1686
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0526, transfer_loss: 0.2341, contrastive_loss: 0.1704, total_loss: 0.1713
+Epoch: [28/50], lr: 0.0100, cls_loss: 0.0526, transfer_loss: 0.2341, contrastive_loss: 0.1704, total_loss: 0.1713, test_loss: 0.001541, test_acc: 100.0000
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0864, transfer_loss: 0.2724, contrastive_loss: 0.1770, total_loss: 0.2244
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0703, transfer_loss: 0.2564, contrastive_loss: 0.1785, total_loss: 0.2003
+Epoch: [29/50], lr: 0.0100, cls_loss: 0.0703, transfer_loss: 0.2564, contrastive_loss: 0.1785, total_loss: 0.2003, test_loss: 0.001636, test_acc: 100.0000
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0476, transfer_loss: 0.2231, contrastive_loss: 0.1434, total_loss: 0.1606
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0469, transfer_loss: 0.2259, contrastive_loss: 0.1617, total_loss: 0.1615
+Epoch: [30/50], lr: 0.0100, cls_loss: 0.0469, transfer_loss: 0.2259, contrastive_loss: 0.1617, total_loss: 0.1615, test_loss: 0.003016, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0471, transfer_loss: 0.2268, contrastive_loss: 0.2251, total_loss: 0.1628
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0526, transfer_loss: 0.2278, contrastive_loss: 0.1884, total_loss: 0.1684
+Epoch: [31/50], lr: 0.0100, cls_loss: 0.0526, transfer_loss: 0.2278, contrastive_loss: 0.1884, total_loss: 0.1684, test_loss: 0.008370, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0617, transfer_loss: 0.2427, contrastive_loss: 0.1809, total_loss: 0.1849
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0590, transfer_loss: 0.2402, contrastive_loss: 0.1838, total_loss: 0.1810
+Epoch: [32/50], lr: 0.0100, cls_loss: 0.0590, transfer_loss: 0.2402, contrastive_loss: 0.1838, total_loss: 0.1810, test_loss: 0.003086, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0100, cls_loss: 0.0442, transfer_loss: 0.2122, contrastive_loss: 0.1122, total_loss: 0.1514
+Iteration: [199/200], lr: 0.0100, cls_loss: 0.0474, transfer_loss: 0.2198, contrastive_loss: 0.1295, total_loss: 0.1586
+Epoch: [33/50], lr: 0.0100, cls_loss: 0.0474, transfer_loss: 0.2198, contrastive_loss: 0.1295, total_loss: 0.1586, test_loss: 0.004769, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0010, cls_loss: 0.0405, transfer_loss: 0.1946, contrastive_loss: 0.1365, total_loss: 0.1391
+Iteration: [199/200], lr: 0.0010, cls_loss: 0.0357, transfer_loss: 0.1852, contrastive_loss: 0.1268, total_loss: 0.1296
+Epoch: [34/50], lr: 0.0010, cls_loss: 0.0357, transfer_loss: 0.1852, contrastive_loss: 0.1268, total_loss: 0.1296, test_loss: 0.003586, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0010, cls_loss: 0.0299, transfer_loss: 0.1687, contrastive_loss: 0.1636, total_loss: 0.1159
+Iteration: [199/200], lr: 0.0010, cls_loss: 0.0316, transfer_loss: 0.1685, contrastive_loss: 0.1310, total_loss: 0.1172
+Epoch: [35/50], lr: 0.0010, cls_loss: 0.0316, transfer_loss: 0.1685, contrastive_loss: 0.1310, total_loss: 0.1172, test_loss: 0.003161, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0010, cls_loss: 0.0287, transfer_loss: 0.1510, contrastive_loss: 0.1332, total_loss: 0.1055
+Iteration: [199/200], lr: 0.0010, cls_loss: 0.0288, transfer_loss: 0.1486, contrastive_loss: 0.1406, total_loss: 0.1045
+Epoch: [36/50], lr: 0.0010, cls_loss: 0.0288, transfer_loss: 0.1486, contrastive_loss: 0.1406, total_loss: 0.1045, test_loss: 0.002073, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0010, cls_loss: 0.0288, transfer_loss: 0.1560, contrastive_loss: 0.1248, total_loss: 0.1081
+Iteration: [199/200], lr: 0.0010, cls_loss: 0.0289, transfer_loss: 0.1541, contrastive_loss: 0.1292, total_loss: 0.1072
+Epoch: [37/50], lr: 0.0010, cls_loss: 0.0289, transfer_loss: 0.1541, contrastive_loss: 0.1292, total_loss: 0.1072, test_loss: 0.001330, test_acc: 100.0000
+Iteration: [99/200], lr: 0.0010, cls_loss: 0.0287, transfer_loss: 0.1456, contrastive_loss: 0.1339, total_loss: 0.1029
+Iteration: [199/200], lr: 0.0010, cls_loss: 0.0274, transfer_loss: 0.1442, contrastive_loss: 0.1201, total_loss: 0.1007
+Epoch: [38/50], lr: 0.0010, cls_loss: 0.0274, transfer_loss: 0.1442, contrastive_loss: 0.1201, total_loss: 0.1007, test_loss: 0.002280, test_acc: 100.0000
+Iteration: [99/200], lr: 0.0010, cls_loss: 0.0283, transfer_loss: 0.1517, contrastive_loss: 0.1401, total_loss: 0.1056
+Iteration: [199/200], lr: 0.0010, cls_loss: 0.0283, transfer_loss: 0.1537, contrastive_loss: 0.1311, total_loss: 0.1065
+Epoch: [39/50], lr: 0.0010, cls_loss: 0.0283, transfer_loss: 0.1537, contrastive_loss: 0.1311, total_loss: 0.1065, test_loss: 0.000851, test_acc: 100.0000
+Iteration: [99/200], lr: 0.0010, cls_loss: 0.0280, transfer_loss: 0.1446, contrastive_loss: 0.1260, total_loss: 0.1015
+Iteration: [199/200], lr: 0.0010, cls_loss: 0.0285, transfer_loss: 0.1445, contrastive_loss: 0.1232, total_loss: 0.1019
+Epoch: [40/50], lr: 0.0010, cls_loss: 0.0285, transfer_loss: 0.1445, contrastive_loss: 0.1232, total_loss: 0.1019, test_loss: 0.004295, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0010, cls_loss: 0.0258, transfer_loss: 0.1326, contrastive_loss: 0.1418, total_loss: 0.0935
+Iteration: [199/200], lr: 0.0010, cls_loss: 0.0261, transfer_loss: 0.1342, contrastive_loss: 0.1426, total_loss: 0.0947
+Epoch: [41/50], lr: 0.0010, cls_loss: 0.0261, transfer_loss: 0.1342, contrastive_loss: 0.1426, total_loss: 0.0947, test_loss: 0.001270, test_acc: 100.0000
+Iteration: [99/200], lr: 0.0010, cls_loss: 0.0266, transfer_loss: 0.1387, contrastive_loss: 0.1245, total_loss: 0.0972
+Iteration: [199/200], lr: 0.0001, cls_loss: 0.0268, transfer_loss: 0.1414, contrastive_loss: 0.1248, total_loss: 0.0987
+Epoch: [42/50], lr: 0.0001, cls_loss: 0.0268, transfer_loss: 0.1414, contrastive_loss: 0.1248, total_loss: 0.0987, test_loss: 0.003545, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0001, cls_loss: 0.0266, transfer_loss: 0.1386, contrastive_loss: 0.1364, total_loss: 0.0973
+Iteration: [199/200], lr: 0.0001, cls_loss: 0.0262, transfer_loss: 0.1349, contrastive_loss: 0.1161, total_loss: 0.0949
+Epoch: [43/50], lr: 0.0001, cls_loss: 0.0262, transfer_loss: 0.1349, contrastive_loss: 0.1161, total_loss: 0.0949, test_loss: 0.005338, test_acc: 99.6289
+Iteration: [99/200], lr: 0.0001, cls_loss: 0.0259, transfer_loss: 0.1356, contrastive_loss: 0.1200, total_loss: 0.0949
+Iteration: [199/200], lr: 0.0001, cls_loss: 0.0259, transfer_loss: 0.1331, contrastive_loss: 0.1119, total_loss: 0.0936
+Epoch: [44/50], lr: 0.0001, cls_loss: 0.0259, transfer_loss: 0.1331, contrastive_loss: 0.1119, total_loss: 0.0936, test_loss: 0.001605, test_acc: 100.0000
+Iteration: [99/200], lr: 0.0001, cls_loss: 0.0257, transfer_loss: 0.1373, contrastive_loss: 0.1149, total_loss: 0.0955
+Iteration: [199/200], lr: 0.0001, cls_loss: 0.0254, transfer_loss: 0.1373, contrastive_loss: 0.1227, total_loss: 0.0953
+Epoch: [45/50], lr: 0.0001, cls_loss: 0.0254, transfer_loss: 0.1373, contrastive_loss: 0.1227, total_loss: 0.0953, test_loss: 0.001152, test_acc: 100.0000
+Iteration: [99/200], lr: 0.0001, cls_loss: 0.0267, transfer_loss: 0.1369, contrastive_loss: 0.1151, total_loss: 0.0963
+Iteration: [199/200], lr: 0.0001, cls_loss: 0.0268, transfer_loss: 0.1345, contrastive_loss: 0.1325, total_loss: 0.0954
+Epoch: [46/50], lr: 0.0001, cls_loss: 0.0268, transfer_loss: 0.1345, contrastive_loss: 0.1325, total_loss: 0.0954, test_loss: 0.003618, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0001, cls_loss: 0.0258, transfer_loss: 0.1365, contrastive_loss: 0.1460, total_loss: 0.0955
+Iteration: [199/200], lr: 0.0001, cls_loss: 0.0269, transfer_loss: 0.1365, contrastive_loss: 0.1361, total_loss: 0.0965
+Epoch: [47/50], lr: 0.0001, cls_loss: 0.0269, transfer_loss: 0.1365, contrastive_loss: 0.1361, total_loss: 0.0965, test_loss: 0.007586, test_acc: 99.6289
+Iteration: [99/200], lr: 0.0001, cls_loss: 0.0263, transfer_loss: 0.1419, contrastive_loss: 0.1190, total_loss: 0.0984
+Iteration: [199/200], lr: 0.0001, cls_loss: 0.0265, transfer_loss: 0.1427, contrastive_loss: 0.1220, total_loss: 0.0990
+Epoch: [48/50], lr: 0.0001, cls_loss: 0.0265, transfer_loss: 0.1427, contrastive_loss: 0.1220, total_loss: 0.0990, test_loss: 0.002011, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0001, cls_loss: 0.0261, transfer_loss: 0.1207, contrastive_loss: 0.1641, total_loss: 0.0881
+Iteration: [199/200], lr: 0.0001, cls_loss: 0.0262, transfer_loss: 0.1290, contrastive_loss: 0.1389, total_loss: 0.0921
+Epoch: [49/50], lr: 0.0001, cls_loss: 0.0262, transfer_loss: 0.1290, contrastive_loss: 0.1389, total_loss: 0.0921, test_loss: 0.001952, test_acc: 99.8145
+Iteration: [99/200], lr: 0.0001, cls_loss: 0.0246, transfer_loss: 0.1295, contrastive_loss: 0.1118, total_loss: 0.0905
+Iteration: [199/200], lr: 0.0001, cls_loss: 0.0250, transfer_loss: 0.1305, contrastive_loss: 0.1107, total_loss: 0.0913
+Epoch: [50/50], lr: 0.0001, cls_loss: 0.0250, transfer_loss: 0.1305, contrastive_loss: 0.1107, total_loss: 0.0913, test_loss: 0.005020, test_acc: 99.8145
+Transfer result: 100.0000
