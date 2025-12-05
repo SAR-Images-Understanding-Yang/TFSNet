@@ -1,6 +1,6 @@
-# Unsupervised Domain Adaptation for SAR Target Recognition from Simulated to Measured Data in Time, Frequency and Scattering Domains
+# Boosting SAR ATR with Simulated Data: Unsupervised Domain Adaptation in Time, Frequency, Scattering Domains
 
-PyTorch implementation of the paper "Unsupervised Domain Adaptation for SAR Target Recognition from Simulated to Measured Data in Time, Frequency and Scattering Domains".
+PyTorch implementation of the paper "Boosting SAR ATR with Simulated Data: Unsupervised Domain Adaptation in Time, Frequency, Scattering Domains".
 
 # Install
 
@@ -336,10 +336,6 @@ python tools/visualize_results.py --config configs/Scene2/TFSNet.yaml --data_dir
 # Experiment Scene3
 python tools/visualize_results.py --config configs/Scene3/TFSNet.yaml --data_dir datasets/Scene3 --tgt_domain Real --checkpoints configs/Scene3
 ```
-
-# Warning
-
-The paper is currently in the review stage, so the important codes has not been uploaded yet.
 
 
 
