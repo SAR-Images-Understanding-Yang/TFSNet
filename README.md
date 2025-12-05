@@ -337,7 +337,9 @@ python tools/visualize_results.py --config configs/Scene2/TFSNet.yaml --data_dir
 python tools/visualize_results.py --config configs/Scene3/TFSNet.yaml --data_dir datasets/Scene3 --tgt_domain Real --checkpoints configs/Scene3
 ```
 
+# Device Information
+GeForce RTX 2080 GPU + i9-10900K CPU
 
-
-
+# Notes
+If you have any questions, please contact me via email (xinpengyang@mail.nwpu.edu.cn)
 
